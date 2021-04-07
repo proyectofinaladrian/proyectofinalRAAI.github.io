@@ -17,13 +17,7 @@ class MiNav extends HTMLElement {
             Sesión</a>
         </li>
       </ul>`;
-      this.innerHTML = /* html */
-      `<ul>
-        <li>
-          <a href="Chat.html">
-            Chat</a>
-        </li>
-      </ul>`;
+      
     this.ul =
       this.querySelector("ul");
     getAuth().onAuthStateChanged(
