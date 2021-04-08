@@ -17,7 +17,6 @@ class MiNav extends HTMLElement {
             Sesión</a>
         </li>
       </ul>`;
-      
     this.ul =
       this.querySelector("ul");
     getAuth().onAuthStateChanged(
@@ -36,13 +35,13 @@ class MiNav extends HTMLElement {
       const roles =
         await cargaRoles(
           usu.email);
-     if (roles.has("Cliente")) {
+      if (roles.has("Cliente")) {
         html += /* html */
           `<li>
             <a href=
               "chat.html">Chat</a>
           </li>`;
-      }
+      } 
       if (roles.has(
         "Administrador")) {
         html += /* html */
