@@ -10,3 +10,4 @@ class MiProgeso
 
 customElements.define(
   "mi-progreso", MiProgeso);
+
