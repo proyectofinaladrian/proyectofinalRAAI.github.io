@@ -1,9 +1,9 @@
 firebase.initializeApp({
-     apiKey: "AIzaSyDQYbCNtkZHSUiFb5cSwnxrLUY0L-U5j6E",
-    authDomain: "proyectofinal-716af.firebaseapp.com",
-    projectId: "proyectofinal-716af",
-    storageBucket: "proyectofinal-716af.appspot.com",
-    messagingSenderId: "1063817660925",
-    appId: "1:1063817660925:web:6a4a8559a87482549e3194",
-    measurementId: "G-KR0XRVY85N"
+   apiKey: "AIzaSyDxzqfDwcu3Cg-VbQw7Fs0LlU-G77KjFjc",
+    authDomain: "bdalum43.firebaseapp.com",
+    projectId: "bdalum43",
+    storageBucket: "bdalum43.appspot.com",
+    messagingSenderId: "626826242814",
+    appId: "1:626826242814:web:2592f2586fa2a14c9d53af",
+    measurementId: "G-61LJKL0SJD"
 });
