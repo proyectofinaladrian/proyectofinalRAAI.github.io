@@ -2,7 +2,9 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width,
+       initial-scale=1.0">
   <title>Sesión</title>
   <!--
     Carga el núcleo de Firebase
@@ -25,7 +27,11 @@
   <script
     src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js">
     </script>
-  
+  <!--
+    Configura la app usando la
+    información del sitio de
+    Firebase.
+  -->
   <script src="js/init.js">
   </script>
   <script type="module"
@@ -41,17 +47,17 @@
     href="css/estilos.css">
 </head>
 <body>
- <form name="forma">
+  <form name="forma">
     <mi-nav></mi-nav>
     <header>
-      <h1>Sesion</h1>
+      <h1>Sesión</h1>
       <div class="herramientas">
-        <button type="button" name="terminarSesión">
+        <button
+          type="button"
+          name="terminarSesión">
           Terminar Sesión
         </button>
       </div>
-
-    
     </header>
     <figure>
       <img id="avatar" src=""
@@ -75,13 +81,10 @@
         </output>
       </label>
     </p>
-    
+    <mi-footer></mi-footer>
   </form>
-
-<footer>Creado por Adrian Isai Rosas Albornos</footer>
   <script type="module"
     src="js/CtrlSesion.js">
     </script>
 </body>
 </html>
-
